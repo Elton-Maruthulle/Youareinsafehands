@@ -1,0 +1,529 @@
+@font-face {
+    font-family: 'font1';
+    src: url(fonts/Sentient-Regular.otf);
+}
+@font-face {
+    font-family: 'font2';
+    src: url(fonts/Sentient-Bold.otf);
+}
+@font-face {
+    font-family: 'font3';
+    src: url(fonts/Hanibee.otf);
+}
+@font-face {
+    font-family: 'font4';
+    src: url(fonts/Bizon.otf);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'font1';
+}
+.container_1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-shrink: 0;
+    animation: animation1 15s infinite linear ;
+    
+}
+container_2{
+    display: none;
+}
+@keyframes animation1 {
+    0%{
+        background-color: #ffffff;
+    }
+    10%{
+        background-color: #ffffff;
+
+    }
+    20%{
+        background-color: black;
+        color: white;
+    }
+    30%{
+        background-color: black;
+        color: white;
+    }
+    40%{
+        background-color: #FF964F;
+        color: black;
+    }
+    50%{
+        background-color: #FF964F;
+        color: black;
+    }
+    60%{
+        background-color: #00ffee;
+        color: black;
+    }
+    70%{
+        background-color: #00ffee;
+        color: black;
+    }
+    80%{
+        background-color: #f5f5f4;
+        color: black;
+    }
+    90%{
+        background-color: #f5f5f4;
+        color: black;
+    }
+    100%{
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+    }
+    
+}
+.contentborder{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+    height: 100hv;
+    padding: 2%;  
+}
+.nav{
+    width:100%;
+    height: 6vh;
+    
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    margin-left: 7px;
+}
+a{
+    text-decoration: none ;
+    color: black;
+}
+.middle{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+.leftblock {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middleblock{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.flipblock{
+    width: 25%;
+    height: 100%;
+    position: relative;
+}
+.contact1{
+    position: absolute;
+    top: 37%;
+    left: 0;
+    animation: contact1anim 15s infinite ease-in-out;
+}
+.contact2{
+    position: absolute;
+    top: 37%;
+    left: 0;
+    animation: contact2anim 15s infinite ease-in-out;
+}
+.contact3{
+    position: absolute;
+    top: 37%;
+    left: 0;
+    animation: contact3anim 15s infinite ease-in-out;
+}
+.contact4{
+    position: absolute;
+    top: 37%;
+    left: 0;
+    animation: contact4anim 15s infinite ease-in-out;
+}
+.contact5{
+    position: absolute;
+    top: 37%;
+    left: 0;
+    animation: contact5anim 15s infinite ease-in-out;
+}
+
+@keyframes contact1anim {
+    0%{
+        color: transparent;
+    }
+    25%{
+        
+        color: white;
+        
+    }
+
+    50%{
+        color: transparent;
+        
+    }
+
+    75%{
+        color: transparent;
+        
+    }
+
+    100%{
+        color: transparent;
+        
+    }
+}
+
+@keyframes contact2anim {
+    0%{
+        color: transparent;
+    }
+    25%{
+        color: transparent;
+        
+    }
+
+    50%{
+        
+        color: black;
+        
+    }
+
+    75%{
+        color: transparent;
+        
+    }
+
+    100%{
+        color: transparent;
+        
+    }
+}
+@keyframes contact3anim {
+    0%{
+        color: transparent;
+    }
+    25%{
+        color: transparent;
+        
+    }
+
+    50%{
+        color: transparent;
+        
+    }
+
+    75%{
+        
+        color: black;
+        
+    }
+
+    100%{
+        color: transparent;
+        
+    }
+    
+}
+
+
+@keyframes contact4anim {
+    0%{
+        color: transparent;
+    }
+    25%{
+        color: transparent;
+        
+    }
+
+    50%{
+        color: transparent;
+        
+    }
+
+    75%{
+        color: transparent;
+        
+    }
+
+    95%{
+        
+        color: black;
+        
+    }
+    100%{
+        color: transparent;
+    }
+}
+
+@keyframes contact5anim {
+    0%{
+        color: black;
+    }
+    25%{
+        color: transparent;
+        
+    }
+
+    50%{
+        color: transparent;
+        
+    }
+
+    75%{
+        color: transparent;
+        
+    }
+
+    95%{
+        
+        color: transparent;
+        
+    }
+    100%{
+        color: black;
+    }
+}
+
+
+.cont{
+    font-family: font3;
+    font-size: 300%;
+}
+.text1{
+    font-size: 350%;
+}
+.text2{
+    font-size: 3rem;
+}
+.text3{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 35% ;
+    font-family: 'font2';
+}
+.text4{
+    font-size: 165% ; 
+}
+.text5{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 1.3rem ;
+    font-family: 'font2';
+}
+
+.navbutton{
+    animation: navbaranim 15s infinite ease-in-out;
+    transition: all 2s;
+}
+
+@keyframes navbaranim {
+    0%{
+        color: black;
+    }
+    25%{
+        color: white;
+        
+    }
+
+    50%{
+        color: black;
+        
+    }
+
+    75%{
+        color: black;
+        
+    }
+
+    95%{
+        
+        color: black;
+        
+    }
+    100%{
+        color: black;
+    }
+}
+
+.navbutton:hover{
+    padding: 10px;
+}
+img{
+    transition: all 1.5s;
+}
+img:hover{
+    padding: 5%;
+}
+
+.rightblock{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.bod{
+    border: 2px solid rgba(0, 128, 0, 0);
+}
+
+@media (max-width: 600px) {
+    
+    .container_1{
+        display: none;
+    }
+    .wrap{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        color: white;
+    }
+   .navbar2{
+        height: 15vh;
+        position: relative;
+        width:5%;
+        top:0;
+        left: 0;
+        animation: logoanim 5s alternate infinite;
+    }
+    .img2{
+        /* height: 15vh;
+        text-align: center; */
+        
+    }
+
+    @keyframes logoanim {
+        0%{
+            top:0;
+            left: 0; 
+            padding: 0%;
+        }
+        50%{
+            top:0;
+            left: 35%;
+            padding: 2%;
+        }
+        100%{
+            top:0;
+            left: 60%;
+            padding: 4%;
+        }
+        
+    }
+
+    .content2_2{
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+
+    }
+    .content2_2_text{
+        font-family: 'font4';
+    }
+    .rotatepic1{
+        animation: rotateanimation 2s infinite ;
+    }
+    .rotatepic2{
+        animation: rotateanimation2 2s infinite ;
+    }
+    .rotatepic3{
+        animation: rotateanimation3 2s infinite ;
+    }
+    @keyframes rotateanimation {
+        0%{
+            visibility:hidden;
+        }
+        25%{
+            visibility:visible;
+        }
+        50%{
+            visibility: hidden;
+        }
+        75%{
+            visibility: hidden;
+        }
+        100%{
+            visibility: hidden;
+        }    
+    }
+    @keyframes rotateanimation2 {
+        0%{
+            visibility:hidden;
+        }
+        25%{
+            visibility:hidden;
+        }
+        50%{
+            visibility: visible;
+        }
+        75%{
+            visibility: hidden;
+        }
+        100%{
+            visibility: hidden;
+        }    
+    }
+    @keyframes rotateanimation3 {
+        0%{
+            visibility:hidden;
+        }
+        25%{
+            visibility:hidden;
+        }
+        50%{
+            visibility: hidden;
+        }
+        75%{
+            visibility: visible;
+        }
+        100%{
+            visibility: hidden;
+        }    
+    }
+    .rights{
+        height: 10vh;
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        font-family: 'font3';
+    }
+    .rotate{
+        height: 10vh;
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        width: 20%;
+    }
+    .rotatepic{
+        
+    }
+    
+}
