@@ -22,6 +22,9 @@
     box-sizing: border-box;
     font-family: 'font1';
 }
+.container_2{
+    display: none;
+}
 .container_1{
     position: absolute;
     top: 0;
@@ -394,7 +397,9 @@ img:hover{
 }
 
 @media (max-width: 600px) {
-    
+    .container_2{
+        display: flex;
+    }
     .container_1{
         display: none;
     }
